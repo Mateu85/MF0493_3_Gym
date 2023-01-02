@@ -1,0 +1,59 @@
+form{
+    width: 650px;
+    margin: 50px auto;
+    padding: 10px;
+    -webkit-box-shadow: 5px 0px 28px -8px rgba(0,0,0,0.91);
+    -moz-box-shadow: 5px 0px 28px -8px rgba(0,0,0,0.91);
+    box-shadow: 5px 0px 28px -8px rgba(0,0,0,0.91);
+    border-radius: 10px;
+    background-color: #fff;
+}
+.inputs_100{
+    width: 100%;
+    padding: 20px 10px;
+}
+.inputs_50{
+    width: 50%;
+    padding: 20px 10px;
+    float: left;
+}
+.inputs_33{
+    width: 33.33%;
+    padding: 20px 10px;
+    float: left;
+}
+label{
+    display: block;
+    margin: 10px 0 5px 0;
+}
+input, select{
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+span{
+    color: #ff0000;
+}
+h3{
+    margin: 10px 0px 20px 20px;
+}
+textarea{
+    width: 100%;
+    height: 120px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+button.btn {
+    width: 30%;
+    margin-left: 32%;
+    height: 34px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}

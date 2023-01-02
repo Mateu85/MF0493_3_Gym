@@ -1,0 +1,24 @@
+
+button.btn.bg-light{
+	background-color: #00ace6!important;
+}
+
+h3 {
+    color: rgb(251, 249, 247)!important;
+}
+
+
+div#headingTwo.card-header.bg-light {
+    background-color: #3c3d41!important;
+}
+
+.card {
+    border-radius: 0rem !important;
+}
+
+table {
+    margin: 55px auto !important;
+    padding: 50px !important;
+    background-color: #f9fafa!important;
+
+}

@@ -1,0 +1,68 @@
+{% extends "base.html"%}
+
+
+    {% block title %}contact_us{% endblock %}
+
+    {% block headLinks %}
+    <link rel="stylesheet" href="public/css/contact.css">
+    <script type="text/javascript" src="public/js/contact.js"></script>
+    {% endblock %}
+
+{% block main %}
+
+<form id="contacto">
+    <!-- falta añadir todos los atributos name de los campos (menos nombre y apellidos) -->
+    <h3>Contact Us</h3>
+    <div class="inputs_50">
+        <label for="nombre">Name <span>*</span></label>
+        <input type="text" id="nombre" name="nombre">
+        <span class="result_nombre"></span>
+    </div>
+    <div class="inputs_50">
+        <label for="apellido">Surname <span>*</span></label>
+        <input type="text" id="apellido" name="apellido">
+        <span class="result_apellido"></span>
+    </div>
+    <div class="clearflix"></div>
+    <div class="inputs_100">
+        <label for="email">Email <span>*</span></label>
+        <input type="text" id="email">
+        <span class="result_email"></span>
+    </div>
+    <div class="inputs_33">
+        <label for="tlf">Phone <span>*</span></label>
+        <input type="text" id="tlf">
+        <span class="result_tlf"></span>
+    </div>
+    <div class="inputs_33">
+        <label for="dni">ID <span>*</span></label>
+        <input type="text" id="dni">
+        <span class="result_dni"></span>
+    </div>
+    <div class="inputs_33">
+        <label for="any">Date of Birth <span>*</span></label>
+        <input type="text" id="any">
+        <span class="result_any"></span>
+    </div>
+    <div class="clearflix"></div>
+    <div class="inputs_100">
+        <label>State <span>*</span></label>
+        <select class="provincias">
+            <option>[Select]</option>
+            <option>Barcelona</option>
+            <option>Girona</option>
+            <option>Lleida</option>
+            <option>Tarragona</option>
+        </select>
+        <span class="result_provincias"></span>
+    </div>
+    <div class="inputs_100">
+        <label>Message <span>*</span></label>
+        <textarea  placeholder="Write a message " id="mensaje"></textarea>
+        <span class="result_mensaje"></span>
+    </div>
+    <button type="button" class="btn">Send</button>
+    <div id="pensandoCont"></div>
+</form>
+
+{% endblock %}

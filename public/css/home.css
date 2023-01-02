@@ -1,0 +1,16 @@
+/* home page video */
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
+
+div .card {
+    border-radius: 10px;
+    background: #3c3d41;
+    color: white;
+
+}
+
+div card-body.p-5 {
+    background-color: grey !important;
+}

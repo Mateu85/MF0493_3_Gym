@@ -1,0 +1,54 @@
+{
+    "": {
+        "controller": "StaticController",
+        "action": "renderHome"
+    },
+    "home": {
+        "controller": "StaticController",
+        "action": "renderHome"
+    },
+    "about": {
+        "controller": "StaticController",
+        "action": "renderAbout"
+    },
+
+    "subscriptions": {
+        "controller": "StaticController",
+        "action": "renderSubscriptions"
+    },
+
+
+
+    "login_reg": {
+        "controller": "UserController",
+        "action": "renderLoginReg"
+    },
+    "registro": {
+        "controller": "UserController",
+        "action": "registro"
+    },
+
+    "login": {
+       "controller": "UserController",
+       "action": "login"
+   },
+
+    "eConfirm": {
+        "controller": "UserController",
+        "action": "emailConfirm"
+    },
+    "contactoSend": {
+        "controller": "UserController",
+        "action": "contactoSend"
+    },
+
+    "contact_us": {
+        "controller": "UserController",
+        "action": "renderContactUs"
+    }
+
+
+
+
+
+}

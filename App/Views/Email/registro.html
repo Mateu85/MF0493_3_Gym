@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Confirmar registro PHP-MVC</title>
+</head>
+<body>
+    <table width="250" border="0" cellspacing="0" cellpadding="10">
+        <tbody>
+            <tr>
+                <td valign="middle" height="40" bgcolor="#bf1650" style="text-align: center; width: 100%; padding: 0px;">
+                    <form action="{{ href }}" method="post">
+                        <input type="hidden" name="token" value="{{ token }}">
+                        <input type="hidden" name="email" value="{{ email }}">
+                        <input type="submit" value="Confirmar el registro" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 40px; font-weight: bold; color: #fff; width: 100%; display: block; overflow: hidden; border: none; text-decoration: none; background-color: #bf1650">
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
